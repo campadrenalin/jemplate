@@ -36,7 +36,7 @@ package Number::Compare;
 use strict;
 use Carp qw(croak);
 use vars qw/$VERSION/;
-$VERSION = '0.03';
+$VERSION = '0.40';
 
 sub new  {
     my $referent = shift;
@@ -87,7 +87,7 @@ use strict;
 use Exporter;
 use vars qw/$VERSION @ISA @EXPORT_OK
             $strict_leading_dot $strict_wildcard_slash/;
-$VERSION = '0.09';
+$VERSION = '0.40';
 @ISA = 'Exporter';
 @EXPORT_OK = qw( glob_to_regex glob_to_regex_string match_glob );
 
@@ -188,7 +188,7 @@ use Number::Compare;
 use Carp qw/croak/;
 use File::Find (); # we're only wrapping for now
 
-our $VERSION = '0.33';
+our $VERSION = '0.40';
 
 sub import {
     my $pkg = shift;
@@ -602,7 +602,7 @@ use vars qw( @EXPORT_OK %EXPORT_TAGS );
 use vars qw( $DEBUG_OPTIONS @STATUS @ERROR @CHOMP @DEBUG @ISA );
 @ISA = qw( Exporter );
 
-our $VERSION = 2.75;
+our $VERSION = 0.40;
 
 
 
@@ -736,7 +736,7 @@ use strict;
 use warnings;
 use Template::Constants;
 
-our $VERSION = 2.78;
+our $VERSION = 0.40;
 
 
 
@@ -840,7 +840,7 @@ use vars qw( $VERSION $DEBUG $ERROR $INSTDIR
              $LATEX_PATH $PDFLATEX_PATH $DVIPS_PATH
              $STASH $SERVICE $CONTEXT $CONSTANTS @PRELOAD );
 
-$VERSION   = 2.75;
+$VERSION   = 0.40;
 $DEBUG     = 0 unless defined $DEBUG;
 $ERROR     = '';
 $CONTEXT   = 'Template::Context';
@@ -1036,7 +1036,7 @@ use warnings;
 use base 'Template::Base';
 use Template::Constants;
 
-our $VERSION = 2.79;
+our $VERSION = 0.40;
 our $DEBUG   = 0 unless defined $DEBUG;
 our $ERROR   = '';
 our ($COMPERR, $AUTOLOAD, $UNICODE);
@@ -1270,7 +1270,7 @@ use constant INFO  => 1;
 use constant TEXT  => 2;
 use overload q|""| => "as_string", fallback => 1;
 
-our $VERSION = 2.70;
+our $VERSION = 0.40;
 
 
 
@@ -1360,7 +1360,7 @@ use Scalar::Util 'blessed';
 
 use constant EXCEPTION => 'Template::Exception';
 
-our $VERSION = 2.80;
+our $VERSION = 0.40;
 our $DEBUG   = 0 unless defined $DEBUG;
 our $ERROR   = '';
 
@@ -1602,7 +1602,7 @@ use constant LOAD   => 3;   # mtime of template
 use constant NEXT   => 4;   # link to next item in cache linked list
 use constant STAT   => 5;   # Time last stat()ed
 
-our $VERSION = 2.94;
+our $VERSION = 0.40;
 our $DEBUG   = 0 unless defined $DEBUG;
 our $ERROR   = '';
 
@@ -2494,7 +2494,7 @@ use File::Basename;
 use File::Path;
 use Scalar::Util qw(blessed);
 
-our $VERSION = '2.25';
+our $VERSION = '0.40';
 our $ERROR   = '';
 our $DEBUG   = 0;
 our $BINMODE = 0 unless defined $BINMODE;
@@ -2663,7 +2663,7 @@ package Template::Grammar;
 use strict;
 use warnings;
 
-our $VERSION  = 2.25;
+our $VERSION  = 0.40;
 
 my (@RESERVED, %CMPOP, $LEXTABLE, $RULES, $STATES);
 my ($factory, $rawstart);
@@ -8676,7 +8676,7 @@ use base 'Template::Base';
 use Template::Constants;
 use Template::Exception;
 
-our $VERSION   = 2.20;
+our $VERSION   = 0.40;
 our $DEBUG     = 0 unless defined $DEBUG;
 our $WHILE_MAX = 1000 unless defined $WHILE_MAX;
 our $PRETTY    = 0 unless defined $PRETTY;
@@ -9518,7 +9518,7 @@ use constant ACCEPT   => 1;
 use constant ERROR    => 2;
 use constant ABORT    => 3;
 
-our $VERSION = 2.89;
+our $VERSION = 0.40;
 our $DEBUG   = 0 unless defined $DEBUG;
 our $ERROR   = '';
 
@@ -10945,7 +10945,7 @@ require 5.004;
 use strict;
 use vars qw( $VERSION );
 
-$VERSION  = sprintf("%d.%02d", q$Revision: 2.10 $ =~ /(\d+)\.(\d+)/);
+$VERSION  = sprintf("%d.%0.40d", q$Revision: 2.10 $ =~ /(\d+)\.(\d+)/);
 
 my (@RESERVED, %CMPOP, $LEXTABLE, $RULES, $STATES);
 my ($factory, $rawstart);

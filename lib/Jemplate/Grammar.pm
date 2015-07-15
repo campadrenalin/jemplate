@@ -37,7 +37,7 @@ require 5.004;
 use strict;
 use vars qw( $VERSION );
 
-$VERSION  = sprintf("%d.%02d", q$Revision: 2.10 $ =~ /(\d+)\.(\d+)/);
+$VERSION  = sprintf("%d.%0.40d", q$Revision: 2.10 $ =~ /(\d+)\.(\d+)/);
 
 my (@RESERVED, %CMPOP, $LEXTABLE, $RULES, $STATES);
 my ($factory, $rawstart);
