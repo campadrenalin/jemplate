@@ -1,3 +1,11 @@
+# NAME
+
+Jemplate - JavaScript Templating with Template Toolkit
+
+# NAME
+
+Jemplate - JavaScript Templating with Template Toolkit
+
 # SYNOPSIS
 
     var data = Ajax.get('url/data.json');
@@ -177,7 +185,7 @@ Jemplate now supports almost all the TT directives, including:
     * [% LAST %]
     * [% CLEAR %]
     * [%# this is a comment %]
-    * [% MACRO name(param1, param2) BLOCK %] ... [% END %]  
+    * [% MACRO name(param1, param2) BLOCK %] ... [% END %]
 
 ALL of the string virtual functions are supported.
 
@@ -249,3 +257,12 @@ David A. Coffey <dacoffey@cogsmith.com>
 Robert Krimen <robertkrimen@gmail.com>
 
 Nickolay Platonov <nickolay8@gmail.com>
+
+# COPYRIGHT AND LICENSE
+
+Copyright (c) 2006-2014. Ingy döt Net.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+See http://www.perl.com/perl/misc/Artistic.html

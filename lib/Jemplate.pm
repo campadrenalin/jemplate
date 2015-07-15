@@ -8,6 +8,7 @@ use Template 2.14;
 use Getopt::Long;
 
 # VERSION
+our $VERSION = "0.40";
 
 use Jemplate::Parser;
 
