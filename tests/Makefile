@@ -1,6 +1,6 @@
 .PHONY: all clean purge
 
-JEMPLATE=../bin/jemplate
+JEMPLATE=../script/jemplate
 RENDERER:=$(shell echo `js-cpan Test/Base/bin/render-template`)
 TEST_TEMPLATE:=$(shell echo `js-cpan Test/Base/template/test.html`)
 INDEX_TEMPLATE:=$(shell echo `js-cpan Test/Base/template/index.html`)

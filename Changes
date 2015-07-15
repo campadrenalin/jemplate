@@ -1,4 +1,9 @@
 ---
+{{$NEXT}}
+
+    - Switch to Minilla for building and testing.
+
+---
 version: 0.30
 date:    Thu Feb 13 12:03:07 PST 2014
 changes:
