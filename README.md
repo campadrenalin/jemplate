@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/campadrenalin/jemplate.svg?branch=master)](https://travis-ci.org/campadrenalin/jemplate)
 # NAME
 
 Jemplate - JavaScript Templating with Template Toolkit

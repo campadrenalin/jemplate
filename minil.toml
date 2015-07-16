@@ -1,4 +1,4 @@
 name = "Jemplate"
-# badges = ["travis"]
+badges = ["travis"]
 module_maker="ModuleBuildTiny"
 
