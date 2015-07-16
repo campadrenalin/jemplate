@@ -6,13 +6,7 @@ perl:
 - 5.12
 - 5.10
 - 5.8
-
-# Performance optimizations (see https://github.com/campadrenalin/jemplate/issues/6)
 sudo: false
-cache:
-  directories:
-  - $HOME/perl5
-  - $HOME/.cpanm
 
 install:
 - git clone --depth=1 --branch=master
