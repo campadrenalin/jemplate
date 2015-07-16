@@ -3,10 +3,6 @@
 
 Jemplate - JavaScript Templating with Template Toolkit
 
-# NAME
-
-Jemplate - JavaScript Templating with Template Toolkit
-
 # SYNOPSIS
 
     var data = Ajax.get('url/data.json');

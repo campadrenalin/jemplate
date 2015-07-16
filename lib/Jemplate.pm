@@ -419,10 +419,6 @@ __END__
 
 Jemplate - JavaScript Templating with Template Toolkit
 
-=head1 NAME
-
-Jemplate - JavaScript Templating with Template Toolkit
-
 =head1 SYNOPSIS
 
     var data = Ajax.get('url/data.json');
